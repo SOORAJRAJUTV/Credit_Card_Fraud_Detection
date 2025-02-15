@@ -1,4 +1,7 @@
 numpy
 pandas
 seaborn
--e .
+joblib
+scipy
+scikit-learn
+#-e .
