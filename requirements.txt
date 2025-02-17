@@ -4,4 +4,6 @@ seaborn
 joblib
 scipy
 scikit-learn
+xgboost
+catboost
 #-e .
