@@ -1,5 +1,6 @@
 🔍 Fraud Detection System using Flask
-A Flask-based web application that predicts fraudulent transactions using a machine learning model. The model analyzes transaction details and classifies them as Genuine or Fraudulent to enhance financial security.
+A Flask-based web application that predicts fraudulent transactions using a machine learning model.
+The model analyzes transaction details and classifies them as Genuine or Fraudulent to enhance financial security.
 
 🚀 Live Demo
 🔗 Visit the Website
