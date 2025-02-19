@@ -1,19 +1,34 @@
-🔍 Fraud Detection System using Flask
-A Flask-based web application that predicts fraudulent transactions using a machine learning model.
-The model analyzes transaction details and classifies them as Genuine or Fraudulent to enhance financial security.
+# 🔍 Fraud Detection System using Flask  
+
+A **Flask-based web application** that predicts fraudulent transactions using a machine learning model.  
+The model analyzes transaction details and classifies them as **Genuine** or **Fraudulent** to enhance financial security.  
+
+---
+
+## 🚀 Live Demo  
+🔗 **Visit the Website** 👉 [Click Here](https://credit-card-fraud-detection-rb3v.onrender.com)  
+
+---
+
+## 📌 Features  
+✅ **Fraud Detection** – Uses ML to classify transactions.  
+✅ **User-Friendly Interface** – Simple and interactive web form.  
+✅ **Real-Time Predictions** – Instantly displays results.  
+✅ **Secure Deployment** – Hosted on Render for public access.  
+
+---
+
+## 🛠️ Tech Stack  
+**Frontend:** HTML, CSS  
+**Backend:** Flask (Python)  
+**Machine Learning:** scikit-learn, Pandas, NumPy  
+**Deployment:** Render  
+
+---
+
+## 📂 Project Structure  
 
 
-
-🚀 Live Demo
-🔗 Visit the Website(https://credit-card-fraud-detection-rb3v.onrender.com)
-
-
-
-📌 Features
-✅ Fraud Detection – Uses machine learning to classify transactions.
-✅ User-Friendly Interface – Simple and interactive web form.
-✅ Real-Time Predictions – Instantly displays results.
-✅ Secure Deployment – Hosted on Render for public access.
 
 
 
