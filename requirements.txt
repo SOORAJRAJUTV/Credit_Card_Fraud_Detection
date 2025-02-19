@@ -6,4 +6,6 @@ scipy
 scikit-learn
 xgboost
 catboost
+Flask
+gunicorn
 #-e .

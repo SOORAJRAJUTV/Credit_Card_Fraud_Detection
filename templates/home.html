@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection - Predict</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Transaction Fraud Detection</h2>
+        <form action="/predictdata" method="POST">
+            <div class="form-section">
+                <div class="form-column">
+                    <label>Customer ID:</label>
+                    <input type="text" name="customer_id" required>
+                    
+                    <label>Terminal ID:</label>
+                    <input type="text" name="terminal_id" required>
+                    
+                    <label>Transaction Amount:</label>
+                    <input type="number" step="0.01" name="tx_amount" required>
+                    
+                </div>
+                <div class="form-column">
+                    <label>Transaction Hour (0-23):</label>
+                    <input type="number" name="tx_hour" min="0" max="23" required>
+
+                    <label>Transaction Day:</label>
+                    <input type="number" name="tx_day" min="1" max="31" required>
+
+                    <label>Day of the Week (0-6):</label>
+                    <input type="number" name="tx_day_of_week" min="0" max="6" required>
+
+                    
+                </div>
+                <div class="form-column">
+                    <label>Transaction Month:</label>
+                    <input type="number" name="tx_month" min="1" max="12" required>
+
+                    <label>Is Night Transaction? (1-Yes, 0-No):</label>
+                    <input type="number" name="is_night_tx" min="0" max="1" required>
+
+                    <label>Is Weekend Transaction? (1-Yes, 0-No):</label>
+                    <input type="number" name="is_weekend_tx" min="0" max="1" required>
+                </div>
+            </div>
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if results is not none %}
+            <div class="result">
+                <h3>Prediction Result:</h3>
+                <p>{{ "Fraudulent Transaction" if results == 1 else "Genuine Transaction" }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
