@@ -26,49 +26,6 @@ The model analyzes transaction details and classifies them as **Genuine** or **F
 
 ---
 
-## 📂 Project Structure  
-
-Credit-Card-ML-Project
-│── .git
-│── .gitignore
-│── app.py
-│── Procfile
-│── README.md
-│── requirements.txt
-│── setup.py
-│── project_structure.txt
-│── src/
-│   ├── __init__.py
-│   ├── components/
-│   │   ├── __init__.py
-│   │   ├── data_ingestion.py
-│   │   ├── data_transformation.py
-│   │   ├── model_trainer.py
-│   ├── pipeline/
-│   │   ├── __init__.py
-│   │   ├── prediction_pipeline.py
-│── static/
-│   ├── css/
-│   │   ├── home.css
-│   │   ├── index.css
-│── templates/
-│   ├── home.html
-│   ├── index.html
-│── notebook/
-│── artifacts/
-│   ├── model.pkl
-│   ├── preprocessor.pkl
-│   ├── raw.csv
-│   ├── test.csv
-│   ├── train.csv
-│── logs/
-│── catboost_info/
-│── venv/
-
-
-
-
----
 
 
 ## 💻 Setup & Installation
