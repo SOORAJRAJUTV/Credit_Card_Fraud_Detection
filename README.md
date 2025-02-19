@@ -27,36 +27,22 @@ The model analyzes transaction details and classifies them as **Genuine** or **F
 ---
 
 ## 📂 Project Structure  
-
-
-
-
-
-
-🛠️ Tech Stack
-Frontend: HTML, CSS
-Backend: Flask (Python)
-Machine Learning: scikit-learn, Pandas, NumPy
-Deployment: Render
-
-
-
-
-📂 Project Structure
 Credit-Card-ML-Project/ │── .git/ │── .gitignore │── app.py │── Procfile │── README.md │── requirements.txt │── setup.py │── project_structure.txt │── src/ │ ├── init.py │ ├── components/ │ │ ├── init.py │ │ ├── data_ingestion.py │ │ ├── data_transformation.py │ │ ├── model_trainer.py │ ├── pipeline/ │ │ ├── init.py │ │ ├── prediction_pipeline.py │── static/ │ ├── css/ │ │ ├── home.css │ │ ├── index.css │── templates/ │ ├── home.html │ ├── index.html │── notebook/ │── artifacts/ │ ├── model.pkl │ ├── preprocessor.pkl │ ├── raw.csv │ ├── test.csv │ ├── train.csv │── logs/ │── catboost_info/ │── venv/
 
 
 
+---
 
-💻 Setup & Installation
-1️⃣ Clone the Repository
+
+## 💻 Setup & Installation
+## 1️⃣ Clone the Repository
 git clone https://github.com/your-username/fraud-detection-app.git
 cd fraud-detection-app
 
 
 
 
-2️⃣ Create & Activate Virtual Environment
+## 2️⃣ Create & Activate Virtual Environment
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate  # Windows
@@ -64,54 +50,56 @@ venv\Scripts\activate  # Windows
 
 
 
-3️⃣ Install Dependencies
+## 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
 
 
 
-4️⃣ Run the Flask App Locally
+## 4️⃣ Run the Flask App Locally
 python app.py
 Open http://127.0.0.1:10000 in your browser.
 
+---
 
 
-
-📌 Usage
+## 📌 Usage
 Enter transaction details in the web form.
 Click "Predict".
 The system displays:
 ✅ Genuine Transaction (Safe)
 ❌ Fraudulent Transaction (Potential Fraud)
 
+---
 
 
-
-🤖 Machine Learning Model
+## 🤖 Machine Learning Model
 The prediction model was trained using:
 
 Algorithm: Random Forest / XGBoost / Other
 Accuracy: 99% (Optional)
 
+---
 
 
-
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
 
+---
 
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 Sooraj T V
 📧 soorajraju9485@gmail.com
 
+---
 
 
+## 🎯 Contributions are welcome! Feel free to open issues or submit pull requests. 🚀
+---
 
-🎯 Contributions are welcome! Feel free to open issues or submit pull requests. 🚀
-
-📢 Next Steps
+## 📢 Next Steps
 Add unit tests for validation.
 Improve UI/UX.
 
